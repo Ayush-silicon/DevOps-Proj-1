@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+spec:
+  template:
+    spec:
+      containers:
+      - name: node-app
+        image: ayushsilicon/node-app:staging # Replace youruser with your DockerHub username
