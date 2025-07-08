@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: ayushsilicon/node-app:production
+        image: ayushsilicon/node-app:latest
